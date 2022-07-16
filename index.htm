@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>프로젝트 오일러</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script defer src="baseCode.js"></script>
+  <script defer src="script.js"></script>
+  
+</head>
+
+
+<body>
+  <script>
+    var questionCount = 20
+    for (var i = 1 ; i <= questionCount ; i++) {
+      document.write(`<button class='question' onclick="runproject(`+String(i)+`)">`+i+'</button>')
+    }
+    function runproject(문제번호) {
+      document.getElementById('문제').innerHTML = ""
+      document.getElementById('답').innerHTML = ""
+      eval('projectEuler'+String(문제번호)+'()');
+    }
+  </script>
+
+  <p id='문제'>문제</p>
+  <p id='답'>답</p>
+  
+</body>
+</html>
