@@ -288,7 +288,7 @@ function projectEuler16() {
 
 }
 
-function projecteuler17(){
+function projectEuler17(){
   const doc = `<div id="content">
 
 
