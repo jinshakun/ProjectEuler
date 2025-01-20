@@ -288,6 +288,53 @@ function projectEuler16() {
 
 }
 
+function projecteuler17(){
+  const doc = `<div id="content">
+
+
+<h2>1부터 1000까지 영어로 썼을 때 사용된 글자의 개수는?</h2>
+<h4 title="난이도 ☕">Problem 17</h4>
+
+<div class="info" style="float:right; font-size:90%;">
+    <a target="_blank" href="https://projecteuler.net/problem=17">[ProjectEuler.net 원본]</a>
+</div>
+<div style="color:#666;font-size:80%; margin-top:10px;">
+    출제 일시 : 2012-01-03 19:11:35, ☕</div>
+<br>
+
+<div class="problem_content">
+    <p>1부터 5까지의 수를 영어로 쓰면 <var>one, two, three, four, five</var> 이고,<br>
+각 단어의 길이를 더하면 3 + 3 + 5 + 4 + 4 = 19 이므로 사용된 글자는 모두 19개입니다.</p>
+<p>1부터 1,000까지 영어로 썼을 때는 모두 몇 개의 글자를 사용해야 할까요?</p>
+<p><strong>참고:</strong>&nbsp;빈 칸이나 하이픈('-')은 셈에서 제외하며,&nbsp;단어 사이의 <var>and</var> 는 셈에 넣습니다.<br>
+&nbsp; 예를 들어 342를 영어로 쓰면 <var>three hundred and forty-two</var> 가 되어서 23 글자,<br>
+&nbsp; 115 = <var>one hundred and fifteen</var> 의 경우에는 20 글자가 됩니다.</p></div>
+
+<br>
+    <div style="text-align:center;" class="noprint">
+        <a href="login.php">로그인</a> 하시면 답안을 제출할 수 있고,<br>
+        정답을 맞히신 분들은 댓글을 달거나 볼 수 있습니다.
+    </div>
+<br>
+<div id="footer" class="noprint">
+    <br>
+    Operated &amp; Hosted by <a href="https://www.synapsoft.co.kr" target="_blank">(주)사이냅소프트</a>
+    |
+    <a href="https://www.synapsoft.co.kr/privacy" target="_blank">개인정보처리방침</a>
+    <br>
+    <a href="/copyright.php">저작권에 대한 정보 (Creative Commons License BY-NC-SA 4.0)</a>
+    <br>
+    문의 메일 euler@synapsoft.co.kr 트위터 <a target="_blank" href="https://twitter.com/ProjectEulerKR">@ProjectEulerKR</a>
+</div>
+
+</div>`
+  let result = 0
+  return {
+    doc : doc,
+    result : result
+  }
+}
+
 
 
 function projectEuler20() {
