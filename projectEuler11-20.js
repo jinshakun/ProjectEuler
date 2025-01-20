@@ -310,22 +310,6 @@ function projectEuler17(){
 &nbsp; 예를 들어 342를 영어로 쓰면 <var>three hundred and forty-two</var> 가 되어서 23 글자,<br>
 &nbsp; 115 = <var>one hundred and fifteen</var> 의 경우에는 20 글자가 됩니다.</p></div>
 
-<br>
-    <div style="text-align:center;" class="noprint">
-        <a href="login.php">로그인</a> 하시면 답안을 제출할 수 있고,<br>
-        정답을 맞히신 분들은 댓글을 달거나 볼 수 있습니다.
-    </div>
-<br>
-<div id="footer" class="noprint">
-    <br>
-    Operated &amp; Hosted by <a href="https://www.synapsoft.co.kr" target="_blank">(주)사이냅소프트</a>
-    |
-    <a href="https://www.synapsoft.co.kr/privacy" target="_blank">개인정보처리방침</a>
-    <br>
-    <a href="/copyright.php">저작권에 대한 정보 (Creative Commons License BY-NC-SA 4.0)</a>
-    <br>
-    문의 메일 euler@synapsoft.co.kr 트위터 <a target="_blank" href="https://twitter.com/ProjectEulerKR">@ProjectEulerKR</a>
-</div>
 
 </div>`
   let result = 0
